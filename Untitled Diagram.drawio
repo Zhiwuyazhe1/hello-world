@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-27T01:59:51.164Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="cjK41Eg8Da2RnegSP1pd" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-27T02:02:17.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="zoiEC7R21-LLWrMt4Ipc" version="14.6.13" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2272" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -222,6 +222,9 @@
             <mxPoint x="310" y="620" as="sourcePoint" />
             <mxPoint x="360" y="570" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-93" value="住院" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="680" y="440" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
