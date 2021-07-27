@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-27T01:20:47.295Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="DUumIsQPt0Kz-6RlqMsb" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-27T01:28:59.420Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="BTMyaAz6l_PvYlDMGdgI" version="14.6.13" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2272" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry y="56" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OfayJ8HUQFOVM7JYoSRG-5" value="患者" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="260" width="160" height="266" as="geometry" />
+          <mxGeometry x="339" y="260" width="160" height="266" as="geometry" />
         </mxCell>
         <mxCell id="OfayJ8HUQFOVM7JYoSRG-6" value="编号" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-5">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
@@ -53,7 +53,7 @@
           <mxGeometry y="86" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OfayJ8HUQFOVM7JYoSRG-21" value="医生" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="340" y="260" width="160" height="116" as="geometry" />
+          <mxGeometry x="-140" y="260" width="160" height="116" as="geometry" />
         </mxCell>
         <mxCell id="OfayJ8HUQFOVM7JYoSRG-22" value="编号" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-21">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
@@ -67,22 +67,10 @@
         <mxCell id="OfayJ8HUQFOVM7JYoSRG-26" value="Is a" style="triangle;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="397.5" y="130" width="45" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="OfayJ8HUQFOVM7JYoSRG-31" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OfayJ8HUQFOVM7JYoSRG-5" target="OfayJ8HUQFOVM7JYoSRG-26">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="230" as="sourcePoint" />
-            <mxPoint x="330" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="OfayJ8HUQFOVM7JYoSRG-34" value="" style="endArrow=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OfayJ8HUQFOVM7JYoSRG-26" target="OfayJ8HUQFOVM7JYoSRG-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="580" y="240" as="sourcePoint" />
             <mxPoint x="630" y="190" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OfayJ8HUQFOVM7JYoSRG-35" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OfayJ8HUQFOVM7JYoSRG-21" target="OfayJ8HUQFOVM7JYoSRG-26">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="250" as="sourcePoint" />
-            <mxPoint x="450" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OfayJ8HUQFOVM7JYoSRG-40" value="" style="endArrow=none;html=1;entryX=0.506;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OfayJ8HUQFOVM7JYoSRG-26" target="OfayJ8HUQFOVM7JYoSRG-3">
@@ -90,6 +78,66 @@
             <mxPoint x="400" y="160" as="sourcePoint" />
             <mxPoint x="450" y="110" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-41" value="主管医生" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="300" width="120" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-44" value="病房" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="850" y="520" width="160" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-45" value="病房编号" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-44">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-46" value="空床余量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-44">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-64" value="价格（每天）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-44">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-48" value="病床" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="850" y="720" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-49" value="病床编号" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-48">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-50" value="是否空闲（患者编号）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-48">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-53" value="药品" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="526" width="160" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-54" value="药品编号" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-53">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-55" value="名称" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-53">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-56" value="价格" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-53">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-62" value="简介" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-53">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-57" value="检查项目" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="526" width="160" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-58" value="项目编号" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-57">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-59" value="名称" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-57">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-60" value="价格" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-57">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-61" value="简介" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-57">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-65" value="管理" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="870" y="410" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-66" value="属于" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="875" y="650" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
