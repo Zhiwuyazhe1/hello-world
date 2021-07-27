@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-27T01:57:18.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="PVP9yzzo90AfnP_WSkNZ" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-27T01:59:51.164Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="cjK41Eg8Da2RnegSP1pd" version="14.6.13" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2272" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -80,7 +80,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OfayJ8HUQFOVM7JYoSRG-41" value="主管医生" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="20" y="292" width="120" height="52" as="geometry" />
+          <mxGeometry x="30" y="293" width="120" height="52" as="geometry" />
         </mxCell>
         <mxCell id="OfayJ8HUQFOVM7JYoSRG-44" value="病房" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1260" y="505" width="160" height="116" as="geometry" />
@@ -167,22 +167,19 @@
           <mxGeometry y="56" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OfayJ8HUQFOVM7JYoSRG-73" value="账户变动记录" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="339" y="627" width="160" height="176" as="geometry" />
+          <mxGeometry x="339" y="627" width="160" height="146" as="geometry" />
         </mxCell>
         <mxCell id="OfayJ8HUQFOVM7JYoSRG-74" value="编号" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-73">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OfayJ8HUQFOVM7JYoSRG-75" value="患者用户名" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-73">
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-76" value="变动类型" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-73">
           <mxGeometry y="56" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OfayJ8HUQFOVM7JYoSRG-76" value="变动类型" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-73">
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-77" value="变动金额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-73">
           <mxGeometry y="86" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OfayJ8HUQFOVM7JYoSRG-77" value="变动金额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-73">
-          <mxGeometry y="116" width="160" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="OfayJ8HUQFOVM7JYoSRG-78" value="变动原因" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="OfayJ8HUQFOVM7JYoSRG-73">
-          <mxGeometry y="146" width="160" height="30" as="geometry" />
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OfayJ8HUQFOVM7JYoSRG-79" value="属于" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="900" y="830" width="110" height="50" as="geometry" />
@@ -190,8 +187,11 @@
         <mxCell id="OfayJ8HUQFOVM7JYoSRG-80" value="属于" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="790" y="690" width="110" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-92" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OfayJ8HUQFOVM7JYoSRG-81" target="OfayJ8HUQFOVM7JYoSRG-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OfayJ8HUQFOVM7JYoSRG-81" value="属于" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="364" y="550" width="110" height="50" as="geometry" />
+          <mxGeometry x="364" y="556" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OfayJ8HUQFOVM7JYoSRG-87" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.019;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OfayJ8HUQFOVM7JYoSRG-82" target="OfayJ8HUQFOVM7JYoSRG-19">
           <mxGeometry relative="1" as="geometry" />
@@ -215,6 +215,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="318" as="sourcePoint" />
             <mxPoint x="610" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OfayJ8HUQFOVM7JYoSRG-91" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OfayJ8HUQFOVM7JYoSRG-73" target="OfayJ8HUQFOVM7JYoSRG-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="620" as="sourcePoint" />
+            <mxPoint x="360" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
